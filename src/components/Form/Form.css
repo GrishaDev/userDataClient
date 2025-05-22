@@ -1,0 +1,21 @@
+.theForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 16px;
+}
+.formStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 16px;
+}
+.title {
+  padding: 32px;
+}
+
+.remainderArea {
+  height: 75px;
+}
