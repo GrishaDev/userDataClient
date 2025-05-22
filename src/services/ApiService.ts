@@ -28,9 +28,7 @@ export class ApiService implements IApiService {
       }
       
       if (res.status === 400) {
-        const data = await res.json();
         return { isSuccessful: false, error: 'bad request'}
-
       }
 
       return { isSuccessful: false, error: 'Something went wrong' }

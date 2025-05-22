@@ -1,0 +1,16 @@
+version: '3.9'
+
+services:
+  frontend:
+    build: .
+    container_name: user-data-client
+    ports:
+      - "5173:80"
+    env_file:
+      - .env
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
