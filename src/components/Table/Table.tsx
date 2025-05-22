@@ -15,6 +15,7 @@ function Table({ userData }: IProps) {
             <th>FirstName</th>
             <th>LastName</th>
             <th>Email</th>
+            <th>Age</th>
           </tr> 
         </thead>   
         <tbody>
@@ -23,6 +24,7 @@ function Table({ userData }: IProps) {
             <td>{data.firstName}</td>
             <td>{data.lastName}</td>
             <td>{data.email}</td>
+            <td>{data.age ?? 'Unknown'}</td>
           </tr>)}
         </tbody>
        </table>}
