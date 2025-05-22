@@ -18,4 +18,6 @@ build static files `npm run build`
 
 
 ## Docker install
+configure .env
+
 run `docker-compose up -d`
